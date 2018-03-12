@@ -2,6 +2,7 @@
 
 const test = require('ava') //para test unitarios
 
+const agentFixtures = requiere('./fixtures/agent')
 
 let config = {
   logging: function() {
